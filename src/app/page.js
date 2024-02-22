@@ -35,6 +35,16 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className={styles.marquee}>
+        <div className={styles.marqueeBox}>
+          <h2 className={styles.marqueeText}>
+            EDUCATION <span>EDUCATION</span> EDUCATION
+          </h2>
+          <h2 className={styles.marqueeText}>
+            <span>EDUCATION</span> EDUCATION <span> EDUCATION</span>
+          </h2>
+        </div>
+      </section>
     </main>
   );
 }
