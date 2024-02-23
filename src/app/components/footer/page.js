@@ -26,27 +26,29 @@ export default function Footer() {
             <div className={styles.follow}>
               <span>Follow me</span>
               <div>
-                <a href="https://github.com/">
+                <a href="https://instagram.com/" target="_blank">
                   <span>
                     <Image src={instagram} alt="instagram" />
                   </span>
                 </a>{" "}
                 &nbsp;&nbsp;
-                <a href="https://twitter.com/">
+                <a href="https://twitter.com/" target="_blank">
                   <span>
-                    <Image src={twitter} alt="twitter" />
+                    <Image src={twitter} alt="twitter" target="_blank" />
                   </span>
                 </a>
                 &nbsp;&nbsp;
-                <a href="https://linkdin.com/">
+                <a
+                  href="https://www.linkedin.com/in/varun-bhatia-5936a290/"
+                  target="_blank">
                   <span>
                     <Image src={linkdin} alt="linkdin" />
                   </span>
                 </a>
                 &nbsp;&nbsp;
-                <a href="https://linkdin.com/">
+                <a href="https://github.com/ait-varun/" target="_blank">
                   <span>
-                    <Image src={git} alt="linkdin" />
+                    <Image src={git} alt="github" />
                   </span>
                 </a>
                 &nbsp;&nbsp;
