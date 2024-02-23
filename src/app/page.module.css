@@ -84,6 +84,7 @@
   /* overflow: hidden; */
 }
 
+
 .marqueeBox h2 {
   white-space: nowrap;
   text-transform: uppercase;
@@ -118,12 +119,12 @@
 }
 .studyLeftContent span {
   color: #a00a76;
-  font-size: 24px;
+  font-size: 1.1vw;
   font-weight: 500;
 }
 .studyLeftContent h6 {
   color: rgba(0, 0, 0, 0.5);
-  font-size: 24px;
+  font-size: 1.2vw;
   font-weight: 500;
   position: relative;
   margin-left: 70px;
@@ -131,14 +132,14 @@
 .studyLeftContent h6:before {
   position: absolute;
   content: "";
-  width: 65px;
+  width: 56px;
   height: 1px;
   background-color: rgba(0, 0, 0, 0.5);
   top: 50%;
   transform: translateY(-50%);
   left: -70px;
 }
-.studyRightContent h2 {
+.studyRightContent h3 {
   color: rgba(0, 0, 0, 0.5);
 }
 
@@ -149,6 +150,78 @@
   height: 1px;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+/* Projects */
+.marqueeProject{
+  height: 100vh;
+}
+.marqueeProjectBox{
+  height: 180px;
+  display: flex;
+  align-items: center;
+}
+.marqueeProjectBox h2 {
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-size: 7rem !important;
+  font-weight: 600;
+  flex-shrink: 0;
+  padding: 0 10px;
+  width: max-content;
+  display: flex;
+  align-items: center;
+  transform: translateX(0);
+  animation: a-text-scroll 25s linear infinite;
+  color: #fff;
+  -webkit-text-stroke: 1px #a00a76;
+}
+.marqueeProjectBox h2 span {
+  color: #a00a76;
+}
+
+.projectHeader{
+  background-color: #a00a76;
+  color: #fff;
+  padding: 1vw 1.2vw;
+}
+
+.projectBefore{
+  background: rgba(0, 0, 0, 1);
+}
+
+.projectLeftContent h2 {
+  color: rgba(255, 255, 255, 1);
+  font-size: 1.2vw;
+  font-weight: 500;
+  position: relative;
+}
+
+
+
+.projectLeftContent h6 {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.2vw;
+  font-weight: 500;
+  position: relative;
+}
+
+.projectBox{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding-bottom: 1.5vw;
+}
+
+
+.projectRightContent span{
+  color: #fff;
+  border: 1px solid #fff;
+  padding: 0.5vw 1.2vw;
+  border-radius: 2vw;
+}
+
+
 
 @keyframes a-text-scroll {
   0% {

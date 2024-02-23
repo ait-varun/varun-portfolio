@@ -53,11 +53,11 @@ export default function Home() {
               <div className={styles.studyBox}>
                 <div className={styles.studyLeftContent}>
                   <span>2012-2016</span>
-                  <h2>Baddi University</h2>
+                  <h3>Baddi University</h3>
                   <h6>Baddi</h6>
                 </div>
                 <div className={styles.studyRightContent}>
-                  <h2>Bachelors of Technology , Electrical Engineering</h2>
+                  <h3>Bachelors of Technology , Electrical Engineering</h3>
                 </div>
               </div>
             </div>
@@ -69,11 +69,11 @@ export default function Home() {
               <div className={styles.studyBox}>
                 <div className={styles.studyLeftContent}>
                   <span>2009</span>
-                  <h2>Gurukul Public Sr. Sec. School</h2>
+                  <h3>Gurukul Public Sr. Sec. School</h3>
                   <h6>Joginder Nagar</h6>
                 </div>
                 <div className={styles.studyRightContent}>
-                  <h2>+2, Non Medical</h2>
+                  <h3>12th, Non Medical</h3>
                 </div>
               </div>
             </div>
@@ -98,11 +98,11 @@ export default function Home() {
               <div className={styles.studyBox}>
                 <div className={styles.studyLeftContent}>
                   <span>JAN 2022 - PRESENT</span>
-                  <h2>Analaytics It. Services</h2>
+                  <h3>Analaytics It. Services</h3>
                   <h6>Mohali</h6>
                 </div>
                 <div className={styles.studyRightContent}>
-                  <h2>Front End Developer</h2>
+                  <h3>Front End Developer</h3>
                 </div>
               </div>
             </div>
@@ -114,11 +114,76 @@ export default function Home() {
               <div className={styles.studyBox}>
                 <div className={styles.studyLeftContent}>
                   <span>MAR 2022 - JUN 2022</span>
-                  <h2>Toxsl Technology Pvt. Ltd.</h2>
+                  <h3>Toxsl Technology Pvt. Ltd.</h3>
                   <h6>Mohali</h6>
                 </div>
                 <div className={styles.studyRightContent}>
-                  <h2>Intern</h2>
+                  <h3>Intern</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section className={styles.marqueeProject}>
+        <div className={styles.marqueeProjectBox}>
+          <h2 className={styles.marqueeText}>
+            PROJECTS <span>PROJECTS</span> PROJECTS
+          </h2>
+          <h2 className={styles.marqueeText}>
+            <span>PROJECTS</span> PROJECTS <span> PROJECTS</span>
+          </h2>
+          <h2 className={styles.marqueeText}>
+            PROJECTS <span>PROJECTS</span> PROJECTS
+          </h2>
+        </div>
+        <div className={styles.projectHeader}>
+          <h1>PROJECTS</h1>
+        </div>
+        <div className={styles.projectBefore}>
+          <div className="container py-3">
+            <div className="row">
+              <div className={styles.projectBox}>
+                <div className={styles.projectLeftContent}>
+                  <h2>House Dekho</h2>
+                  <h6>Nuxt JS</h6>
+                </div>
+                <div className={styles.projectRightContent}>
+                  <span>Vue JS</span>&nbsp;&nbsp;
+                  <span>Bootstrap</span>&nbsp;&nbsp;
+                  <span>Tailwind</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.projectBefore}>
+          <div className="container py-3">
+            <div className="row">
+              <div className={styles.projectBox}>
+                <div className={styles.projectLeftContent}>
+                  <h2>Destiny Limousines</h2>
+                  <h6>Angular</h6>
+                </div>
+                <div className={styles.projectRightContent}>
+                  <span>Bootstrap</span>&nbsp;&nbsp;
+                  <span>Tailwind</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className={styles.projectBefore}>
+          <div className="container py-3">
+            <div className="row">
+              <div className={styles.projectBox}>
+                <div className={styles.projectLeftContent}>
+                  <h2>Selland Technology</h2>
+                  <h6>Svelte</h6>
+                </div>
+                <div className={styles.projectRightContent}>
+                  <span>GraphQL</span>&nbsp;&nbsp;
+                  <span>Tailwind</span>
                 </div>
               </div>
             </div>
