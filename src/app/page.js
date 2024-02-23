@@ -147,7 +147,7 @@ export default function Home() {
             <div className="row">
               <div className={styles.projectBox}>
                 <div className={styles.projectLeftContent}>
-                  <h2>House Dekho</h2>
+                  <h2 className="mt-2">House Dekho</h2>
                   <h6>Nuxt JS</h6>
                 </div>
                 <div className={styles.projectRightContent}>
