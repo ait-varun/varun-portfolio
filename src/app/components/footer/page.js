@@ -16,9 +16,9 @@ export default function Footer() {
             </h2>
             <div className={styles.address}>
               <p>Get in touch</p>
-              <h3>+91 1234567890</h3>
-              <h3>kD9vF@example.com</h3>
-              <h3>123, ABC Street, XYZ City</h3>
+              <h3>+91 7018319841</h3>
+              <h3>varun6pain@gmail.com</h3>
+              <h3>Phase 3A, Mohali</h3>
             </div>
           </div>
 
