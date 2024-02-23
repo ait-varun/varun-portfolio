@@ -23,6 +23,8 @@
   color: rgba(0, 0, 0, 0.9);
 }
 .followText {
+  letter-spacing: 1px;
+  font-weight: 600;
   margin-left: 1vw;
 }
 .follow a span {
