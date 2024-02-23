@@ -1,3 +1,5 @@
+"use client";
+
 import styles from "./page.module.css";
 import Image from "next/image";
 import profile from "../../assets/images/profile-main.png";
