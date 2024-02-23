@@ -12,15 +12,18 @@
   background-color: black;
   color: #fff;
   padding: 15px;
-  border-radius: 10px;
+  border-radius: 1.2vw;
 }
 .address {
-margin-top: 4vw;
+  margin-top: 4vw;
 }
-.address h3{
+.address h3 {
   font-size: 1.2vw;
   font-weight: 600;
   color: rgba(0, 0, 0, 0.9);
+}
+.followText {
+  margin-left: 1vw;
 }
 .follow a span {
   display: inline-block;
@@ -47,7 +50,7 @@ margin-top: 4vw;
   align-items: center;
   flex-direction: column;
   background-color: #ecf1f4;
-  border-radius: 20px;
+  border-radius: 1.2vw;
   padding: 2vw 3vw;
   margin-top: 2vw;
 }
@@ -58,7 +61,7 @@ margin-top: 4vw;
 
 .footer button {
   padding: 1vw 3vw;
-  border-radius: 20px;
+  border-radius: 1.2vw;
   border: none;
 }
 

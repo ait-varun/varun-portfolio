@@ -24,7 +24,7 @@ export default function Footer() {
 
           <div className="col-4">
             <div className={styles.follow}>
-              <span>Follow me</span>
+              <span className={styles.followText}>Follow me</span>
               <div>
                 <a href="https://instagram.com/" target="_blank">
                   <span>
