@@ -70,6 +70,9 @@
   font-family: 'Moret', sans-serif;
   letter-spacing: 1.2px;
 }
+.studyLeftContent h6{
+  font-family: 'Moret', sans-serif;
+}
 .studyLeftContent h6 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.2vw;

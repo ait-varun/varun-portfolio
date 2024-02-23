@@ -45,6 +45,7 @@
 }
 
 .projectLeftContent h2 {
+  font-family: 'Moret', sans-serif;
   color: rgba(255, 255, 255, 1);
   font-size: 1.2vw;
   font-weight: 500;
@@ -54,6 +55,7 @@
 
 
 .projectLeftContent h6 {
+  font-family: 'Moret', sans-serif;
   color: rgba(255, 255, 255, 0.5);
   font-size: 1.2vw;
   font-weight: 500;
@@ -77,6 +79,7 @@
 }
 
 .marqueeBox h2 {
+
   white-space: nowrap;
   text-transform: uppercase;
   font-size: 7rem !important;
