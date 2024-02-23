@@ -4,9 +4,8 @@ import profile from "../../assets/images/profile-main.png";
 import { useRef } from "react";
 
 export default function Hero({ scrollTo, goToSectionRef }) {
-  const sectionRef = useRef();
   return (
-    <section className={styles.hero} ref={sectionRef}>
+    <section className={styles.hero}>
       <header>
         <div className="container-fluid">
           <nav className={styles.navbar}>
