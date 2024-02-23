@@ -1,24 +1,67 @@
-.footer{
+.footer {
   height: 100vh;
   scroll-snap-align: center;
+  display: flex;
+  align-items: center;
 }
 
-.follow{
+.follow {
   display: flex;
   align-items: center;
   justify-content: space-between;
   background-color: black;
   color: #fff;
-  padding : 15px;
+  padding: 15px;
   border-radius: 10px;
 }
-.follow a{
-  border: 1px solid #fff;
+.address {
+margin-top: 4vw;
+}
+.address h3{
+  font-size: 1.2vw;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.9);
+}
+.follow a span {
+  display: inline-block;
+  width: 3vw;
+  height: 3vw;
+  border: 1px solid #ffffff00;
   border-radius: 50%;
-  padding: 10px;
+  text-align: center;
+  line-height: 2.8vw;
 }
 
 .follow img {
   width: 2vw;
   height: 2vw;
+}
+
+.follow a:hover span {
+  border: 1px solid #a00a76;
+}
+
+.footer .projectButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ecf1f4;
+  border-radius: 20px;
+  padding: 2vw 3vw;
+  margin-top: 2vw;
+}
+
+.footer p {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.footer button {
+  padding: 1vw 3vw;
+  border-radius: 20px;
+  border: none;
+}
+
+.footer button:hover {
+  background-color: #a00a76;
 }

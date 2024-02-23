@@ -10,15 +10,15 @@ export default function Footer() {
       <div className="container">
         <div className="row">
           <div className="col-8">
-            <h3>
-              If you feel like i might be a great fit, i would love to hear from
-              you!
-            </h3>
-            <div>
+            <h2>
+              If you feel like i might be a great fit, <br></br> i would love to
+              hear from you!
+            </h2>
+            <div className={styles.address}>
               <p>Get in touch</p>
-              <p>+91 1234567890</p>
-              <p>kD9vF@example.com</p>
-              <p>123, ABC Street, XYZ City</p>
+              <h3>+91 1234567890</h3>
+              <h3>kD9vF@example.com</h3>
+              <h3>123, ABC Street, XYZ City</h3>
             </div>
           </div>
 
@@ -27,24 +27,32 @@ export default function Footer() {
               <span>Follow me</span>
               <div>
                 <a href="https://github.com/">
-                  <Image src={instagram} alt="instagram" />
+                  <span>
+                    <Image src={instagram} alt="instagram" />
+                  </span>
                 </a>{" "}
                 &nbsp;&nbsp;
                 <a href="https://twitter.com/">
-                  <Image src={twitter} alt="twitter" />
+                  <span>
+                    <Image src={twitter} alt="twitter" />
+                  </span>
                 </a>
                 &nbsp;&nbsp;
                 <a href="https://linkdin.com/">
-                  <Image src={linkdin} alt="linkdin" />
+                  <span>
+                    <Image src={linkdin} alt="linkdin" />
+                  </span>
                 </a>
                 &nbsp;&nbsp;
                 <a href="https://linkdin.com/">
-                  <Image src={git} alt="linkdin" />
+                  <span>
+                    <Image src={git} alt="linkdin" />
+                  </span>
                 </a>
                 &nbsp;&nbsp;
               </div>
             </div>
-            <div>
+            <div className={styles.projectButton}>
               <h3>Ready to talk?</h3>
               <p>I&apos;ve got a good feeling about this</p>
               <button>Start a project</button>
