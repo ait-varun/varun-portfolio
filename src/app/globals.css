@@ -7,6 +7,8 @@
   font-display: swap;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 
 * {
   box-sizing: border-box;
@@ -44,7 +46,9 @@ a {
 }
 
 
-
+.logo {
+  font-family: "Great Vibes", cursive;
+}
 
 
 @media (prefers-color-scheme: dark) {
