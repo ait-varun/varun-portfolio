@@ -25,9 +25,11 @@ export default function Home() {
                 <h1>Hi, I am Varun</h1>
                 <h2>Web Developer</h2>
                 <p>
-                  jhorem rfpsum golor sidt amet, consectetur adipiscing elit,
-                  eiusmod tempor incididunt utcjhg labore bet dolore magna
-                  aliqua. Quis ipsum suspendisse ultrices gravida.
+                  I have a strong passion for web development and have honed my
+                  skills over the past year, specializing in JS frameworks. With
+                  a solid foundation in these technologies, I am confident in my
+                  ability to tackle complex challenges and deliver exceptional
+                  results.
                 </p>
                 <button>Projects</button>
               </div>
