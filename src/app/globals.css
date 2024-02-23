@@ -6,6 +6,13 @@
   font-style: normal;
   font-display: swap;
 }
+@font-face {
+  font-family: 'Moret';
+  src: url('./assets/fonts/Moret-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 
@@ -25,7 +32,7 @@ body {
 body {
   color: #000000;
   background: rgb(255, 255, 255);
-  font-family: 'Onest', sans-serif ,'Great Vibes', cursive !important;
+  font-family: 'Onest', sans-serif ,'Great Vibes', cursive, 'Moret', sans-serif !important;
 }
 h1{
   font-size: 4vw !important;

@@ -66,6 +66,10 @@
   font-size: 1.1vw;
   font-weight: 500;
 }
+.studyLeftContent h3{
+  font-family: 'Moret', sans-serif;
+  letter-spacing: 1.2px;
+}
 .studyLeftContent h6 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 1.2vw;
@@ -84,6 +88,7 @@
   left: -70px;
 }
 .studyRightContent h3 {
+  font-family: 'Moret', sans-serif;
   color: rgba(0, 0, 0, 0.5);
 }
 

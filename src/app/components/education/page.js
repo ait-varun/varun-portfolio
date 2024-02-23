@@ -36,7 +36,7 @@ export default function Education() {
           <div className="row">
             <div className={styles.studyBox}>
               <div className={styles.studyLeftContent}>
-                <span>2009</span>
+                <span>2011</span>
                 <h3>Gurukul Public Sr. Sec. School</h3>
                 <h6>Joginder Nagar</h6>
               </div>

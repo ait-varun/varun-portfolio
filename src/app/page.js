@@ -6,11 +6,13 @@ import Hero from "./components/hero/page";
 import Education from "./components/education/page";
 import Work from "./components/work/page";
 import Projects from "./components/projects/page";
+import Footer from "./components/footer/page";
 export default function Home() {
   const section1 = useRef();
   const section2 = useRef();
   const section3 = useRef();
   const section4 = useRef();
+  const section5 = useRef();
   function scrollto(section) {
     section.current.scrollIntoView({ behavior: "smooth" });
   }
@@ -28,7 +30,10 @@ export default function Home() {
           <Work gotosectionref={section4} scrollto={scrollto} />
         </div>
         <div ref={section4}>
-          <Projects gotosectionref={section1} scrollto={scrollto} />
+          <Projects gotosectionref={section5} scrollto={scrollto} />
+        </div>
+        <div ref={section5}>
+          <Footer gotosectionref={section1} scrollto={scrollto} />
         </div>
       </div>
     </main>

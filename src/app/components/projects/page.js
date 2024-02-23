@@ -20,10 +20,10 @@ export default function Projects() {
             <div className={styles.projectBox}>
               <div className={styles.projectLeftContent}>
                 <h2 className="mt-2">House Dekho</h2>
-                <h6>Nuxt JS</h6>
+                <h6>Nuxt</h6>
               </div>
               <div className={styles.projectRightContent}>
-                <span>Vue JS</span>&nbsp;&nbsp;
+                <span>Vue</span>&nbsp;&nbsp;
                 <span>Bootstrap</span>&nbsp;&nbsp;
                 <span>Axios</span>
                 &nbsp;&nbsp;
@@ -43,7 +43,8 @@ export default function Projects() {
               </div>
               <div className={styles.projectRightContent}>
                 <span>Bootstrap</span>&nbsp;&nbsp;
-                <span>Tailwind</span>
+                <span>Typescript</span>&nbsp;&nbsp;
+                <span>Ngrx</span>
               </div>
             </div>
           </div>
@@ -58,8 +59,11 @@ export default function Projects() {
                 <h6>Svelte</h6>
               </div>
               <div className={styles.projectRightContent}>
+                &nbsp;&nbsp;
+                <span>Tailwind</span>&nbsp;&nbsp;
+                <span>SveleteKit</span>&nbsp;&nbsp;
                 <span>GraphQL</span>&nbsp;&nbsp;
-                <span>Tailwind</span>
+                <span>Embla Carousel</span>
               </div>
             </div>
           </div>
