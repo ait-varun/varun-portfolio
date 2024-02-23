@@ -40,10 +40,11 @@ export default function Home() {
       <section className={styles.marquee}>
         <div className={styles.marqueeBox}>
           <h2 className={styles.marqueeText}>
-            EDUCATION <span>EDUCATION</span> EDUCATION
+            &nbsp;EDUCATION <span>&nbsp;EDUCATION</span>&nbsp;EDUCATION
           </h2>
           <h2 className={styles.marqueeText}>
-            <span>EDUCATION</span> EDUCATION <span> EDUCATION</span>
+            <span>&nbsp;EDUCATION</span>&nbsp;EDUCATION{" "}
+            <span>&nbsp;EDUCATION</span>
           </h2>
         </div>
         <div className={styles.studyHeader}>
@@ -85,10 +86,11 @@ export default function Home() {
       <section className={styles.marquee}>
         <div className={styles.marqueeBox}>
           <h2 className={styles.marqueeText}>
-            EXPERIENCE <span>EXPERIENCE</span> EXPERIENCE
+            &nbsp;EXPERIENCE<span>&nbsp;EXPERIENCE</span>&nbsp;EXPERIENCE
           </h2>
           <h2 className={styles.marqueeText}>
-            <span>EXPERIENCE</span> EXPERIENCE <span> EXPERIENCE</span>
+            <span>&nbsp;EXPERIENCE</span>&nbsp;EXPERIENCE
+            <span>&nbsp;EXPERIENCE</span>
           </h2>
         </div>
         <div className={styles.studyHeader}>
@@ -130,13 +132,11 @@ export default function Home() {
       <section className={styles.marqueeProject}>
         <div className={styles.marqueeProjectBox}>
           <h2 className={styles.marqueeText}>
-            PROJECTS <span>PROJECTS</span> PROJECTS
+            PROJECTS&nbsp;<span>PROJECTS</span>&nbsp;PROJECTS
           </h2>
           <h2 className={styles.marqueeText}>
-            <span>PROJECTS</span> PROJECTS <span> PROJECTS</span>
-          </h2>
-          <h2 className={styles.marqueeText}>
-            PROJECTS <span>PROJECTS</span> PROJECTS
+            <span>&nbsp;PROJECTS</span>&nbsp;PROJECTS{" "}
+            <span>&nbsp;PROJECTS</span>
           </h2>
         </div>
         <div className={styles.projectHeader}>
@@ -153,7 +153,9 @@ export default function Home() {
                 <div className={styles.projectRightContent}>
                   <span>Vue JS</span>&nbsp;&nbsp;
                   <span>Bootstrap</span>&nbsp;&nbsp;
-                  <span>Tailwind</span>
+                  <span>Axios</span>
+                  &nbsp;&nbsp;
+                  <span>Swiper</span>
                 </div>
               </div>
             </div>
