@@ -162,6 +162,7 @@
   align-items: center;
   background-color: #fff;
 }
+
 .marqueeProjectBox h2 {
   white-space: nowrap;
   text-transform: uppercase;
@@ -178,6 +179,10 @@
   -webkit-text-stroke: 1px #a00a76;
 }
 .marqueeProjectBox h2 span {
+  color: #a00a76;
+}
+.projectBox:hover h2,.projectBox:hover span{
+  border-color: #a00a76;
   color: #a00a76;
 }
 
