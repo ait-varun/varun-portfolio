@@ -1,7 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import profile from "../../assets/images/profile-main.png";
-import { useRef } from "react";
 
 export default function Hero({ scrollTo, goToSectionRef }) {
   return (
