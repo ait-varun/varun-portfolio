@@ -21,19 +21,19 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.container}>
         <div ref={section1}>
-          <Hero gotosectionref={section2} scrollto={scrollto} />
+          <Hero goToSectionRef={section4} scrollTo={scrollto} />
         </div>
         <div ref={section2}>
-          <Education gotosectionref={section3} scrollto={scrollto} />
+          <Education />
         </div>
         <div ref={section3}>
-          <Work gotosectionref={section4} scrollto={scrollto} />
+          <Work />
         </div>
-        <div ref={section4}>
-          <Projects gotosectionref={section5} scrollto={scrollto} />
+        <div ref={section4} id="projects">
+          <Projects />
         </div>
         <div ref={section5}>
-          <Footer gotosectionref={section1} scrollto={scrollto} />
+          <Footer />
         </div>
       </div>
     </main>

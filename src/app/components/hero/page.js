@@ -1,10 +1,12 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import profile from "../../assets/images/profile-main.png";
+import { useRef } from "react";
 
-export default function Hero() {
+export default function Hero({ scrollTo, goToSectionRef }) {
+  const sectionRef = useRef();
   return (
-    <section className={styles.hero}>
+    <section className={styles.hero} ref={sectionRef}>
       <header>
         <div className="container-fluid">
           <nav className={styles.navbar}>
@@ -31,7 +33,7 @@ export default function Hero() {
                 ability to tackle complex challenges and deliver exceptional
                 results.
               </p>
-              <button>Projects</button>
+              <button onClick={() => scrollTo(goToSectionRef)}>Projects</button>
             </div>
           </div>
         </div>
