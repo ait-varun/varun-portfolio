@@ -1,5 +1,9 @@
 import styles from "./page.module.css";
-
+import Image from "next/image";
+import instagram from "../../assets/images/instagram.png";
+import twitter from "../../assets/images/twitter.png";
+import linkdin from "../../assets/images/linkdin.png";
+import git from "../../assets/images/git.png";
 export default function Footer() {
   return (
     <section className={styles.footer}>
@@ -19,15 +23,32 @@ export default function Footer() {
           </div>
 
           <div className="col-4">
-            <div>
+            <div className={styles.follow}>
               <span>Follow me</span>
               <div>
-                <a href="https://github.com/"></a>
-                <a href="https://twitter.com/"></a>
-                <a href="https://linkdin.com/"></a>
+                <a href="https://github.com/">
+                  <Image src={instagram} alt="instagram" />
+                </a>{" "}
+                &nbsp;&nbsp;
+                <a href="https://twitter.com/">
+                  <Image src={twitter} alt="twitter" />
+                </a>
+                &nbsp;&nbsp;
+                <a href="https://linkdin.com/">
+                  <Image src={linkdin} alt="linkdin" />
+                </a>
+                &nbsp;&nbsp;
+                <a href="https://linkdin.com/">
+                  <Image src={git} alt="linkdin" />
+                </a>
+                &nbsp;&nbsp;
               </div>
             </div>
-            <div></div>
+            <div>
+              <h3>Ready to talk?</h3>
+              <p>I&apos;ve got a good feeling about this</p>
+              <button>Start a project</button>
+            </div>
           </div>
         </div>
       </div>
