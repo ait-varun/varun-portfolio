@@ -131,6 +131,7 @@
   }
   .projectBox {
     display: block;
+    padding-bottom: 1.5rem;
   }
   .projectHeader h1 {
     margin-top: 0.5rem;
