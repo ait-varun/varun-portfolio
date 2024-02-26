@@ -212,3 +212,24 @@
     transform: translateX(-40%);
   }
 }
+
+
+
+/* Mobile */
+@media (max-width: 700px) {
+  .marquee {
+    padding-top: 3rem;
+  }
+  .studyHeader h1 {
+    font-size: 8vw !important;
+  }
+  .studyLeftContent span, .studyLeftContent h6{
+    font-size: 3.2vw !important;
+  }
+  .studyRightContent{
+    text-align: right;
+  }
+  .studyRightContent h3{
+    font-size: 4vw !important;
+  }
+}
