@@ -5,10 +5,11 @@ export default function Projects() {
     <section className={styles.marqueeProject}>
       <div className={styles.marqueeProjectBox}>
         <h2 className={styles.marqueeText}>
-          PROJECTS&nbsp;<span>PROJECTS</span>&nbsp;PROJECTS
-        </h2>
-        <h2 className={styles.marqueeText}>
-          <span>&nbsp;PROJECTS</span>&nbsp;PROJECTS <span>&nbsp;PROJECTS</span>
+          <span>&nbsp;PROJECTS</span>
+          <span>&nbsp;PROJECTS</span>
+          <span>&nbsp;PROJECTS</span>
+          <span>&nbsp;PROJECTS</span>
+          <span>&nbsp;PROJECTS</span>
         </h2>
       </div>
       <div className={styles.projectHeader}>

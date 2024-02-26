@@ -5,10 +5,10 @@ export default function Work() {
     <section className={styles.marquee}>
       <div className={styles.marqueeBox}>
         <h2 className={styles.marqueeText}>
-          &nbsp;EXPERIENCE<span>&nbsp;EXPERIENCE</span>&nbsp;EXPERIENCE
-        </h2>
-        <h2 className={styles.marqueeText}>
-          <span>&nbsp;EXPERIENCE</span>&nbsp;EXPERIENCE
+          <span>&nbsp;EXPERIENCE</span>
+          <span>&nbsp;EXPERIENCE</span>
+          <span>&nbsp;EXPERIENCE</span>
+          <span>&nbsp;EXPERIENCE</span>
           <span>&nbsp;EXPERIENCE</span>
         </h2>
       </div>

@@ -98,7 +98,7 @@
   position: absolute;
   white-space: nowrap;
   will-change: transform;
-  animation: a-text-scroll 10s linear infinite;
+  animation: a-text-scroll 12s linear infinite;
 }
 
 .marqueeBox h2 span:nth-child(even) {
