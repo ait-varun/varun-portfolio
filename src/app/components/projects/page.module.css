@@ -65,7 +65,7 @@
 .projectLeftContent h6::before{
   position: absolute;
   content: "";
-  width: 56px;
+  width: 4rem;
   height: 1px;
   background-color: rgba(255, 255, 255, 0.5);
   top: 50%;
@@ -146,7 +146,11 @@
   }
   .projectLeftContent h6 {
     font-size: 3.2vw !important;
-    margin-left: 5rem;
+    margin-left: 3.5rem;
+  }
+  .projectLeftContent h6::before{
+    width: 2.5rem !important;
+    left: -3rem;
   }
   .projectRightContent {
     display: flex;
