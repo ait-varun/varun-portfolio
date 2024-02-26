@@ -121,4 +121,22 @@
   width: 50vw;
   border-radius: 50%;
 }
+.heroContent{
+  text-align: center;
+}
+.heroContent h1{
+  font-size: 7vw !important;
+  margin-bottom: 1rem;
+}
+.heroContent h2{
+  font-size: 6vw !important;
+  margin-bottom: 1rem;
+}
+.heroContent p{
+  font-size: 2.5vw !important;
+  margin-bottom: 1rem;
+}
+.heroContent button{
+  margin-bottom: 2rem;
+}
 }
