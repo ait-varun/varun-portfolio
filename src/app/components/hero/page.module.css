@@ -4,6 +4,7 @@
 .navbar {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin: 2vw 4vw;
   padding-top: 2vw;
 }
@@ -11,7 +12,7 @@
 .logo {
   display: block;
   font-family: "Great Vibes", cursive;
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .navbar h1 {
   color: black;
@@ -20,6 +21,7 @@
 .navbar button {
   background-color: white;
   color: black;
+  font-size: 1rem;
   border-radius: 2vw;
   padding: 0.5vw 2vw;
   border: 1px solid black;
@@ -106,4 +108,17 @@
   100% {
     transform: translate3d(-100%, 0, 0);
   }
+}
+
+
+/* Mobile */
+@media (max-width: 700px) {
+.heroImage{
+  flex-direction: column;
+}
+.heroImage img{
+  height: 50vw;
+  width: 50vw;
+  border-radius: 50%;
+}
 }
