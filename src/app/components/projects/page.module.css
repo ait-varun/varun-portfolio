@@ -139,13 +139,13 @@
   .projectLeftContent {
     display: flex;
     align-items: baseline;
-    justify-content: space-between;
   }
   .projectLeftContent h2 {
     font-size: 6.5vw !important;
   }
   .projectLeftContent h6 {
     font-size: 3.2vw !important;
+    margin-left: 5rem;
   }
   .projectRightContent {
     text-align: center;
