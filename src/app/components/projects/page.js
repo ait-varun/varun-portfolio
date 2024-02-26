@@ -64,6 +64,7 @@ export default function Projects() {
                 <span>Tailwind</span>&nbsp;&nbsp;
                 <span>SveleteKit</span>&nbsp;&nbsp;
                 <span>GraphQL</span>&nbsp;&nbsp;
+                <span>GraphQL</span>&nbsp;&nbsp;
                 <span>Embla Carousel</span>
               </div>
             </div>

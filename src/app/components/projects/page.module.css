@@ -148,7 +148,11 @@
     margin-left: 5rem;
   }
   .projectRightContent {
+    display: flex;
     text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 10px;
   }
   .projectRightContent span {
     font-size: 3vw !important;
