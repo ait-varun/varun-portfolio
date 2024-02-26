@@ -116,6 +116,15 @@
   .marqueeProject {
     padding-top: 3rem;
   }
+  .marqueeProjectBox{
+    height: 100px;
+  }
+  .marqueeProjectBox h2{
+    font-size: 5rem !important;
+  }
+  .projectBox{
+   display: block;
+  }
   .projectHeader h1 {
     font-size: 8vw !important;
   }
@@ -126,9 +135,9 @@
     font-size: 3.2vw !important;
   }
   .projectRightContent{
-    text-align: right;
+    text-align: center;
   }
   .projectRightContent span{
-    font-size:1.2vw !important;
+    font-size:2vw !important;
   }
 }
