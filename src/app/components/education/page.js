@@ -5,12 +5,20 @@ export default function Education() {
     <section className={styles.marquee}>
       <div className={styles.marqueeBox}>
         <h2 className={styles.marqueeText}>
-          &nbsp;EDUCATION <span>&nbsp;EDUCATION</span>&nbsp;EDUCATION
-        </h2>
-        <h2 className={styles.marqueeText}>
-          <span>&nbsp;EDUCATION</span>&nbsp;EDUCATION{" "}
+          <span>&nbsp;EDUCATION</span>
+          <span>&nbsp;EDUCATION</span>
+          <span>&nbsp;EDUCATION</span>
           <span>&nbsp;EDUCATION</span>
         </h2>
+        {/* <h2 className={styles.marqueeText}>
+          &nbsp;EDUCATION <span>&nbsp;EDUCATION</span>
+          &nbsp;EDUCATION&nbsp;EDUCATION <span>&nbsp;EDUCATION</span>
+          &nbsp;EDUCATION
+        </h2> */}
+        {/* <h2 className={styles.marqueeText}>
+          <span>&nbsp;EDUCATION</span>&nbsp;EDUCATION{" "}
+          <span>&nbsp;EDUCATION</span>
+        </h2> */}
       </div>
       <div className={styles.studyHeader}>
         <h1>STUDY</h1>
