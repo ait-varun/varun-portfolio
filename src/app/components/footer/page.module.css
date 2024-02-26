@@ -70,3 +70,33 @@
 .footer button:hover {
   background-color: #a00a76;
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+  .footer h2 {
+    font-size: 5.5vw !important;
+  }
+
+  .address p {
+    font-size: 2.5vw !important;
+  }
+
+  .address h3 {
+    font-size: 3.5vw !important;
+  }
+  .projectButton p {
+    font-size: 3.5vw !important;
+  }
+  .footer Button{
+    padding: 3vw 5vw;
+  }
+  .follow img{
+    height: 5vw;
+    width: 5vw;
+  }
+  .follow a span{
+    width: 7vw;
+    height: 7vw;
+    line-height: 5.8vw;
+  }
+}
