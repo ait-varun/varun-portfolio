@@ -8,14 +8,16 @@ const user = {
   education: [
     {
       year: "2012-2016",
-      course: "Baddi University",
+      institute: "Baddi University",
+      location: "Baddi",
       degree: "Bachelors of Technology",
       stream: "Electrical Engineering",
     },
     {
       year: "2011",
-      course: "Gurukul Public Sr. Sec. School",
-      degree: "!2th",
+      institute: "Gurukul Public Sr. Sec. School",
+      location: "Joginder Nagar",
+      degree: "12th",
       stream: "Non Medical",
     },
   ],

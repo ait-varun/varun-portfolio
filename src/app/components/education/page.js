@@ -15,38 +15,26 @@ export default function Education() {
       <div className={styles.studyHeader}>
         <h1>STUDY</h1>
       </div>
-      <div className={styles.studyBefore}>
-        <div className="container py-3">
-          <div className="row">
-            <div className={styles.studyBox}>
-              <div className={styles.studyLeftContent}>
-                <span>2012-2016</span>
-                <h3>Baddi University</h3>
-                <h6>Baddi</h6>
-              </div>
-              <div className={styles.studyRightContent}>
-                <h3>Bachelors of Technology , Electrical Engineering</h3>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className={styles.studyBefore}>
-        <div className="container py-3">
-          <div className="row">
-            <div className={styles.studyBox}>
-              <div className={styles.studyLeftContent}>
-                <span>2011</span>
-                <h3>Gurukul Public Sr. Sec. School</h3>
-                <h6>Joginder Nagar</h6>
-              </div>
-              <div className={styles.studyRightContent}>
-                <h3>12th, Non Medical</h3>
+      {user.education.map((item, index) => (
+        <div className={styles.studyBefore} key={index}>
+          <div className="container py-3" >
+            <div className="row">
+              <div className={styles.studyBox}>
+                <div className={styles.studyLeftContent}>
+                  <span>{item.year}</span>
+                  <h3>{item.institute}</h3>
+                  <h6>{item.location}</h6>
+                </div>
+                <div className={styles.studyRightContent}>
+                  <h3>
+                    {item.degree} , {item.stream}
+                  </h3>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      ))}
     </section>
   );
 }
