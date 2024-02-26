@@ -9,6 +9,7 @@ export default function Education() {
           <span>&nbsp;EDUCATION</span>
           <span>&nbsp;EDUCATION</span>
           <span>&nbsp;EDUCATION</span>
+          <span>&nbsp;EDUCATION</span>
         </h2>
         {/* <h2 className={styles.marqueeText}>
           &nbsp;EDUCATION <span>&nbsp;EDUCATION</span>
