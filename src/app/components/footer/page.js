@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-12 col-md-4">
+          <div className="col-12 col-md-4 mt-5 mt-md-0">
             <div className={styles.follow}>
               <span className={styles.followText}>Follow me</span>
               <div>

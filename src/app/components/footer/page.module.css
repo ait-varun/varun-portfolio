@@ -76,19 +76,25 @@
   .footer h2 {
     font-size: 5.5vw !important;
   }
+  .address{
+    margin-top: 8vw;
+  }
 
   .address p {
-    font-size: 2.5vw !important;
+    font-size: 3.5vw !important;
   }
 
   .address h3 {
-    font-size: 3.5vw !important;
+    font-size: 4vw !important;
   }
   .projectButton p {
     font-size: 3.5vw !important;
   }
   .footer Button{
     padding: 3vw 5vw;
+  }
+  .follow{
+    margin-bottom: 2rem;
   }
   .follow img{
     height: 5vw;
@@ -98,5 +104,8 @@
     width: 7vw;
     height: 7vw;
     line-height: 5.8vw;
+  }
+  .projectButton{
+    padding : 6vw 3vw !important;
   }
 }
