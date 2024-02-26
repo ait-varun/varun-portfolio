@@ -1,5 +1,5 @@
 import styles from "./page.module.css";
-
+import user from "@/app/data/data";
 export default function Education() {
   return (
     <section className={styles.marquee}>
@@ -11,15 +11,6 @@ export default function Education() {
           <span>&nbsp;EDUCATION</span>
           <span>&nbsp;EDUCATION</span>
         </h2>
-        {/* <h2 className={styles.marqueeText}>
-          &nbsp;EDUCATION <span>&nbsp;EDUCATION</span>
-          &nbsp;EDUCATION&nbsp;EDUCATION <span>&nbsp;EDUCATION</span>
-          &nbsp;EDUCATION
-        </h2> */}
-        {/* <h2 className={styles.marqueeText}>
-          <span>&nbsp;EDUCATION</span>&nbsp;EDUCATION{" "}
-          <span>&nbsp;EDUCATION</span>
-        </h2> */}
       </div>
       <div className={styles.studyHeader}>
         <h1>STUDY</h1>
