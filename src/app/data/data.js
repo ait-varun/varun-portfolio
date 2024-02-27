@@ -47,14 +47,13 @@ const user = {
         "Pinia-plugin-persist",
         "Axios",
         "Swiper",
-        "Netlify",
       ],
     },
     {
       name: "Destiny Limousines",
       url: "https://destiny-limousines.netlify.app/",
       frameworks: "Angular",
-      libraries: ["Boostrap", "TypeScript", "Ngrx"],
+      libraries: ["Boostrap", "TypeScript", "Ngrx", "Service-workers"],
     },
     {
       name: "Selland Technology",
