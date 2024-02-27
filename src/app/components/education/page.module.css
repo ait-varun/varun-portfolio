@@ -10,7 +10,6 @@
   /* overflow: hidden; */
 }
 
-
 .marqueeBox h2 span {
   color: #000;
 }
@@ -22,6 +21,7 @@
   background: black;
   color: #fff;
   padding: 20px 30px;
+  margin-bottom: 0px;
 }
 
 .studyBox {
@@ -105,19 +105,20 @@
   .marqueeBox {
     height: 100px;
   }
-  .marqueeBox h2{
+  .marqueeBox h2 {
     font-size: 5rem !important;
   }
   .studyHeader h1 {
     font-size: 8vw !important;
   }
-  .studyLeftContent span, .studyLeftContent h6{
+  .studyLeftContent span,
+  .studyLeftContent h6 {
     font-size: 3.2vw !important;
   }
-  .studyRightContent{
+  .studyRightContent {
     text-align: right;
   }
-  .studyRightContent h3{
+  .studyRightContent h3 {
     font-size: 4vw !important;
   }
   .marqueeBox h2 span:nth-child(even) {
