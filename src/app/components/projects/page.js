@@ -16,18 +16,18 @@ export default function Projects() {
         <h1>PROJECTS</h1>
       </div>
       <div className={styles.projectBefore}>
-        {user.projects.map((item, index) => (
+        {user.projects.map((project, index) => (
           <div className="container py-3" key={index}>
             <div className="row">
               <div className={styles.projectBox}>
                 <div className={styles.projectLeftContent}>
-                  <h2>{item.name}</h2>
-                  <h6>{item.frameworks}</h6>
+                  <h2>{project.name}</h2>
+                  <h6>{project.frameworks}</h6>
                 </div>
                 <div className={styles.projectRightContent}>
-                  {item.libraries.map((item, index) => (
+                  {project.libraries.map((project, index) => (
                     <span key={index} className="ms-2">
-                      {item}
+                      {project}
                     </span>
                   ))}
                 </div>

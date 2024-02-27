@@ -15,19 +15,19 @@ export default function Education() {
       <div className={styles.studyHeader}>
         <h1>STUDY</h1>
       </div>
-      {user.education.map((item, index) => (
+      {user.education.map((study, index) => (
         <div className={styles.studyBefore} key={index}>
-          <div className="container py-3" >
+          <div className="container py-3">
             <div className="row">
               <div className={styles.studyBox}>
                 <div className={styles.studyLeftContent}>
-                  <span>{item.year}</span>
-                  <h3>{item.institute}</h3>
-                  <h6>{item.location}</h6>
+                  <span>{study.year}</span>
+                  <h3>{study.institute}</h3>
+                  <h6>{study.location}</h6>
                 </div>
                 <div className={styles.studyRightContent}>
                   <h3>
-                    {item.degree} , {item.stream}
+                    {study.degree} , {study.stream}
                   </h3>
                 </div>
               </div>
