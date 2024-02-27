@@ -68,38 +68,6 @@ const user = {
         "Embla Carousel",
       ],
     },
-    {
-      name: "House Dekho",
-      url: "https://housedekho.netlify.app/",
-      frameworks: "Nuxt",
-      libraries: [
-        "TypeScript",
-        "Boostrap",
-        "Pinia-store",
-        "Pinia-plugin-persist",
-        "Axios",
-        "Swiper",
-        "Netlify",
-      ],
-    },
-    {
-      name: "Destiny Limousines",
-      url: "https://destiny-limousines.netlify.app/",
-      frameworks: "Angular",
-      libraries: ["Boostrap", "TypeScript", "Ngrx"],
-    },
-    {
-      name: "Selland Technology",
-      url: "https://selland.technology/",
-      frameworks: "Svelte",
-      libraries: [
-        "Tailwind",
-        "SvelteKit",
-        "GraphQL",
-        "Netlify",
-        "Embla Carousel",
-      ],
-    },
   ],
   details: {
     contact: "+91 7018319841",
