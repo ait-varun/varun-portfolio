@@ -15,9 +15,9 @@ export default function Work() {
       <div className={styles.studyHeader}>
         <h1>WORK</h1>
       </div>
-      <div className={styles.studyBefore}>
-        {user.experience.map((item, index) => (
-          <div className="container py-3" key={index}>
+      {user.experience.map((item, index) => (
+        <div className={styles.studyBefore} key={index}>
+          <div className="container py-3">
             <div className="row">
               <div className={styles.studyBox}>
                 <div className={styles.studyLeftContent}>
@@ -31,8 +31,8 @@ export default function Work() {
               </div>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </section>
   );
 }
