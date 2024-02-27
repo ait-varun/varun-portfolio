@@ -26,13 +26,13 @@ const user = {
       year: "JAN 2022 - PRESENT",
       company: "Analaytics It. Services",
       location: "Mohali",
-      description: "Front End Developer",
+      role: "Front End Developer",
     },
     {
       year: "MAR 2022 - JUN 2022",
       company: "Toxsl Technology Pvt. Ltd.",
       location: "Mohali",
-      description: "Intern",
+      role: "Intern",
     },
   ],
   projects: [
