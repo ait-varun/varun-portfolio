@@ -156,7 +156,7 @@
     display: flex;
     text-align: center;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: baseline;
     row-gap: 10px;
   }
   .projectRightContent span {
