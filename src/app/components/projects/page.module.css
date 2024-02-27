@@ -162,4 +162,9 @@
   .projectRightContent span {
     font-size: 3vw !important;
   }
+  .marqueeProjectBox h2 span:nth-child(even) {
+    color: #fff;
+    text-shadow: 0px 0px 2px #a00a76;
+    -webkit-text-stroke: 0px;
+  }
 }

@@ -109,28 +109,8 @@
   scroll-snap-align: center;
   background: #000;
 }
-/* .marqueeProjectBox{
-  height: 180px;
-  display: flex;
-  align-items: center;
-  background-color: #fff;
-} */
 
-/* .marqueeProjectBox h2 {
-  white-space: nowrap;
-  text-transform: uppercase;
-  font-size: 7rem !important;
-  font-weight: 600;
-  flex-shrink: 0;
-  padding: 0 10px;
-  width: max-content;
-  display: flex;
-  align-items: center;
-  transform: translateX(0);
-  animation: a-text-scroll 25s linear infinite;
-  color: #fff;
-  -webkit-text-stroke: 1px #a00a76;
-} */
+
 .marqueeProjectBox h2 span {
   color: #a00a76;
 }
@@ -234,5 +214,10 @@
   }
   .studyRightContent h3{
     font-size: 4vw !important;
+  }
+  .marqueeBox h2 span:nth-child(even) {
+    color: #fff;
+    text-shadow: 0px 0px 2px black;
+    -webkit-text-stroke: 0px;
   }
 }
