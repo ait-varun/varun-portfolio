@@ -3,7 +3,7 @@
 import styles from "./page.module.css";
 import Image from "next/image";
 import profile from "../../assets/images/profile-main.png";
-
+import user from "@/app/data/data";
 export default function Hero({ scrollTo, goToSectionRef }) {
   return (
     <section className={styles.hero}>
@@ -24,15 +24,9 @@ export default function Hero({ scrollTo, goToSectionRef }) {
           <div className={styles.heroImage}>
             <Image src={profile} alt="Profile-pic" />
             <div className={styles.heroContent}>
-              <h1>Hi, I am Varun</h1>
-              <h2>Web Developer</h2>
-              <p>
-                I have a strong passion for web development and have honed my
-                skills over the past year, specializing in JS frameworks. With a
-                solid foundation in these technologies, I am confident in my
-                ability to tackle complex challenges and deliver exceptional
-                results.
-              </p>
+              <h1>Hi, I am {user.description.name}</h1>
+              <h2>{user.description.designation}</h2>
+              <p>{user.description.description}</p>
               <button onClick={() => scrollTo(goToSectionRef)}>Projects</button>
             </div>
           </div>

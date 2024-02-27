@@ -9,7 +9,7 @@ export default function Footer() {
     <section className={styles.footer}>
       <div className="container">
         <div className="row">
-          <div className="col-8">
+          <div className="col-12 col-md-8">
             <h2>
               If you feel like i might be a great fit, <br></br> i would love to
               hear from you!
@@ -22,7 +22,7 @@ export default function Footer() {
             </div>
           </div>
 
-          <div className="col-4">
+          <div className="col-12 col-md-4 mt-5 mt-md-0">
             <div className={styles.follow}>
               <span className={styles.followText}>Follow me</span>
               <div>
