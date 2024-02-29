@@ -6,13 +6,13 @@ import profile from "../../assets/images/profile-main.png";
 import user from "@/app/data/data";
 import Link from "next/link";
 import gsap from "gsap/gsap-core";
-import { useEffect } from "react";
+import { useEffect, useLayoutEffect } from "react";
 import { CSSPlugin } from "gsap/all";
 export default function Hero({ scrollTo, goToSectionRef }) {
   // Register CSSPlugin
   gsap.registerPlugin(CSSPlugin);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
     // Refactored animation configurations for better readability and standardization
     const logoAnimation = {
       opacity: 0,

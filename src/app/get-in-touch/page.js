@@ -1,9 +1,11 @@
 import Link from "next/link";
+import styles from "./page.module.css";
+
 export default function GetInTouch() {
   return (
-    <div>
-      <h1>Get in touch</h1>
-      <Link href="/">HOME</Link>
+    <div className={styles.getInTouch}>
+      <h1>Coming Soon...</h1>
+      <Link href="/">GO HOME</Link>
     </div>
   );
 }
