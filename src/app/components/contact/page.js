@@ -144,6 +144,7 @@ export default function ContactForm() {
               {...register("message", {
                 required: "If any message",
               })}
+
             />
             {errors.message && (
               <div className="invalid-feedback">{errors.message.message}</div>
