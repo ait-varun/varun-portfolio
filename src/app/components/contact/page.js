@@ -70,7 +70,7 @@ export default function ContactForm() {
       </div>
       <div className="mb-3">
         <label htmlFor="address" className="form-label">
-          Address
+          Location
         </label>
         <textarea
           id="address"
