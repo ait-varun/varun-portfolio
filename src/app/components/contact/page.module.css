@@ -2,8 +2,13 @@
   font-family: "Moret", sans-serif;
   background: black;
   color: #fff;
-  padding: 20px 30px;
+  padding: 1vw 3vw;
   margin-bottom: 0px;
+}
+
+
+.getInTouch img{
+  width: 3vw;
 }
 
 .contactForm input,
@@ -12,6 +17,14 @@
   border-bottom: 1px solid black;
   border-radius: 0px;
 }
+
+.contactForm input:focus,
+.contactForm textarea:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #000000;
+}
+
 
 .contactForm .formBtn {
   text-align: center;

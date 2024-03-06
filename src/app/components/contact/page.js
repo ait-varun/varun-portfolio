@@ -4,7 +4,7 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import arrow from "../../assets/images/back-arrow-svgrepo-com.svg";
-
+import Link from "next/link";
 export default function ContactForm() {
   const {
     register,
@@ -19,6 +19,7 @@ export default function ContactForm() {
     console.log(data);
     reset(); // Reset form fields
     setShowMessage(true);
+    isValid?.name && isValid?.email && isValid?.message && isValid?.phone;
     setTimeout(() => {
       setShowMessage(false); // Hide the message after 3 seconds
     }, 3000);
@@ -27,9 +28,12 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.contactForm}>
       <div
-        className={`${styles.getInTouch} d-flex align-items-center justify-content-between my-4`}>
-        <h2>Get in Touch</h2>
-        <Image src={arrow} alt="back-button" />
+        className={`${styles.getInTouch} d-flex align-items-center justify-content-between mb-4`}>
+        <h1>CONTACT ME</h1>
+        <Link href="/">
+          {" "}
+          <Image src={arrow} alt="back-button" />
+        </Link>
       </div>
       {showMessage && (
         <div className="alert alert-success mb-3" role="alert">
@@ -70,7 +74,10 @@ export default function ContactForm() {
               }`}
               {...register("contact", {
                 required: "Phone Number is required",
-                pattern: { value: /^\d{10}$/, message: "Invalid phone number" },
+                pattern: {
+                  value: /^\d{10}$/,
+                  message: "Invalid phone number",
+                },
               })}
             />
             {errors.contact && (
