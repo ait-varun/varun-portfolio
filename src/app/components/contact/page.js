@@ -40,7 +40,7 @@ export default function ContactForm() {
           I&apos;ll reach you soon!
         </div>
       )}
-      <div className="container">
+      <div className="container mt-5">
         <div className="row">
           <div className="mb-3 col-md-6">
             <label htmlFor="name" className="form-label">
@@ -84,7 +84,7 @@ export default function ContactForm() {
               <div className="invalid-feedback">{errors.contact.message}</div>
             )}
           </div>
-          <div className="mb-3 col-md-6">
+          <div className="mb-3 col-md-6 mt-5">
             <label htmlFor="contact" className="form-label">
               Email
             </label>
@@ -106,7 +106,7 @@ export default function ContactForm() {
               <div className="invalid-feedback">{errors.email.message}</div>
             )}
           </div>
-          <div className="mb-3 col-md-6">
+          <div className="mb-3 col-md-6 mt-5">
             <label htmlFor="address" className="form-label">
               Location
             </label>
@@ -128,7 +128,7 @@ export default function ContactForm() {
             )}
           </div>
 
-          <div className="mb-3">
+          <div className="mb-3 mt-4">
             <label htmlFor="address" className="form-label">
               Message
             </label>
@@ -150,7 +150,7 @@ export default function ContactForm() {
             )}
           </div>
           <div className={styles.formBtn}>
-            <button type="submit" className="btn btn-primary">
+            <button type="submit" className="btn btn-primary mt-4">
               Submit
             </button>
           </div>

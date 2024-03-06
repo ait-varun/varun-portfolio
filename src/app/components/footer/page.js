@@ -1,5 +1,6 @@
 import styles from "./page.module.css";
 import Image from "next/image";
+import Link from "next/link";
 import instagram from "../../assets/images/instagram.png";
 import twitter from "../../assets/images/twitter.png";
 import linkdin from "../../assets/images/linkdin.png";
@@ -57,7 +58,9 @@ export default function Footer() {
             <div className={styles.projectButton}>
               <h3>Ready to talk?</h3>
               <p>I&apos;ve got a good feeling about this</p>
-              <button>Start a project</button>
+              <Link href="/get-in-touch">
+                <button>Start a project</button>
+              </Link>
             </div>
           </div>
         </div>

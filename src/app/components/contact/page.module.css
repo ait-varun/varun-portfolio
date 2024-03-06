@@ -25,6 +25,11 @@
   border-color: #000000;
 }
 
+.contactForm label{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
 
 .contactForm .formBtn {
   text-align: center;
