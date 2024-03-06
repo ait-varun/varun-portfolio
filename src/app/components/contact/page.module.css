@@ -24,3 +24,26 @@
   background-color: black;
   border: none;
 }
+
+.is-valid {
+  border-color: #28a745;
+}
+
+
+/* .contactForm
+input:-webkit-autofill{
+    -webkit-text-fill-color: rgb(1, 1, 1) !important;
+    box-shadow: 0 0 0 30px rgb(255, 255, 255) inset !important;
+
+} */
+
+
+.contactForm input:-webkit-autofill,
+.contactForm input:-webkit-autofill:hover,
+.contactForm input:-webkit-autofill:focus,
+.contactForm input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: #000000;
+    transition: background-color 5000s ease-in-out 0s;
+    box-shadow: 0 0 0 20px rgb(255, 255, 255) inset !important;
+}

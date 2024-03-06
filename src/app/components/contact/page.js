@@ -4,12 +4,13 @@ import { useState } from "react";
 import styles from "./page.module.css";
 import Image from "next/image";
 import arrow from "../../assets/images/back-arrow-svgrepo-com.svg";
+
 export default function ContactForm() {
   const form = useForm();
   const {
     register,
     handleSubmit,
-    formState: { errors },
+    formState: { errors, isValid },
     reset,
   } = form;
   const [showMessage, setShowMessage] = useState(false);
@@ -45,7 +46,9 @@ export default function ContactForm() {
             <input
               type="text"
               id="name"
-              className={`form-control ${errors.name ? "is-invalid" : ""}`}
+              className={`form-control ${
+                errors.name ? "is-invalid" : isValid?.name ? "is-valid" : ""
+              }`}
               {...register("name", { required: "Name is required" })}
             />
             {errors.name && (
@@ -59,10 +62,16 @@ export default function ContactForm() {
             <input
               type="text"
               id="contact"
-              className={`form-control ${errors.contact ? "is-invalid" : ""}`}
+              className={`form-control ${
+                errors.contact
+                  ? "is-invalid"
+                  : isValid?.contact
+                  ? "is-valid"
+                  : ""
+              }`}
               {...register("contact", { required: "Phone Number is required" })}
             />
-            {errors.name && (
+            {errors.contact && (
               <div className="invalid-feedback">{errors.contact.message}</div>
             )}
           </div>
@@ -73,7 +82,9 @@ export default function ContactForm() {
             <input
               type="text"
               id="email"
-              className={`form-control ${errors.email ? "is-invalid" : ""}`}
+              className={`form-control ${
+                errors.email ? "is-invalid" : isValid?.email ? "is-valid" : ""
+              }`}
               {...register("email", {
                 required: "Email is required",
                 pattern: {
@@ -82,7 +93,7 @@ export default function ContactForm() {
                 },
               })}
             />
-            {errors.contact && (
+            {errors.email && (
               <div className="invalid-feedback">{errors.email.message}</div>
             )}
           </div>
@@ -92,7 +103,13 @@ export default function ContactForm() {
             </label>
             <input
               id="address"
-              className={`form-control ${errors.address ? "is-invalid" : ""}`}
+              className={`form-control ${
+                errors.address
+                  ? "is-invalid"
+                  : isValid?.address
+                  ? "is-valid"
+                  : ""
+              }`}
               {...register("address", {
                 required: "Please provide an address",
               })}
@@ -108,12 +125,18 @@ export default function ContactForm() {
             </label>
             <textarea
               id="message"
-              className={`form-control ${errors.message ? "is-invalid" : ""}`}
+              className={`form-control ${
+                errors.message
+                  ? "is-invalid"
+                  : isValid?.message
+                  ? "is-valid"
+                  : ""
+              }`}
               {...register("message", {
                 required: "If any message",
               })}
             />
-            {errors.address && (
+            {errors.message && (
               <div className="invalid-feedback">{errors.message.message}</div>
             )}
           </div>
