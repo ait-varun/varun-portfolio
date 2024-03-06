@@ -1,0 +1,26 @@
+.getInTouch {
+  font-family: "Moret", sans-serif;
+  background: black;
+  color: #fff;
+  padding: 20px 30px;
+  margin-bottom: 0px;
+}
+
+.contactForm input,
+.contactForm textarea {
+  border: none;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+}
+
+.contactForm .formBtn {
+  text-align: center;
+}
+
+
+.contactForm .formBtn button {
+  padding: 1vw 3vw;
+  border-radius: 1.2vw;
+  background-color: black;
+  border: none;
+}
