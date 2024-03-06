@@ -53,7 +53,7 @@ export default function ContactForm() {
             )}
           </div>
           <div className="mb-3 col-md-6">
-            <label htmlFor="contact" className="form-label">
+            <label htmlFor="name" className="form-label">
               Contact
             </label>
             <input
@@ -61,7 +61,24 @@ export default function ContactForm() {
               id="contact"
               className="form-control"
               {...register("contact", {
-                required: "Contact is required",
+                required: "Phone Number is required",
+                pattern: { value: /^\d{10}$/, message: "Invalid phone number" },
+              })}
+            />
+            {errors.name && (
+              <div className="invalid-feedback">{errors.name.message}</div>
+            )}
+          </div>
+          <div className="mb-3 col-md-6">
+            <label htmlFor="contact" className="form-label">
+              Email
+            </label>
+            <input
+              type="text"
+              id="email"
+              className="form-control"
+              {...register("email", {
+                required: "Email is required",
                 pattern: {
                   value: /^\S+@\S+\.\S+$/,
                   message: "Invalid email address",
