@@ -18,7 +18,7 @@ export default function ContactForm() {
     // Handle form submission logic here
     console.log(data);
     reset(); // Reset form fields
-    setShowMessage(true); // Show the message
+    setShowMessage(true);
     setTimeout(() => {
       setShowMessage(false); // Hide the message after 3 seconds
     }, 3000);
@@ -45,7 +45,7 @@ export default function ContactForm() {
             <input
               type="text"
               id="name"
-              className="form-control"
+              className={`form-control ${errors.name ? "is-invalid" : ""}`}
               {...register("name", { required: "Name is required" })}
             />
             {errors.name && (
@@ -54,19 +54,16 @@ export default function ContactForm() {
           </div>
           <div className="mb-3 col-md-6">
             <label htmlFor="name" className="form-label">
-              Contact
+              Phone Number
             </label>
             <input
               type="text"
               id="contact"
-              className="form-control"
-              {...register("contact", {
-                required: "Phone Number is required",
-                pattern: { value: /^\d{10}$/, message: "Invalid phone number" },
-              })}
+              className={`form-control ${errors.contact ? "is-invalid" : ""}`}
+              {...register("contact", { required: "Phone Number is required" })}
             />
             {errors.name && (
-              <div className="invalid-feedback">{errors.name.message}</div>
+              <div className="invalid-feedback">{errors.contact.message}</div>
             )}
           </div>
           <div className="mb-3 col-md-6">
@@ -76,7 +73,7 @@ export default function ContactForm() {
             <input
               type="text"
               id="email"
-              className="form-control"
+              className={`form-control ${errors.email ? "is-invalid" : ""}`}
               {...register("email", {
                 required: "Email is required",
                 pattern: {
@@ -86,20 +83,38 @@ export default function ContactForm() {
               })}
             />
             {errors.contact && (
-              <div className="invalid-feedback">{errors.contact.message}</div>
+              <div className="invalid-feedback">{errors.email.message}</div>
             )}
           </div>
-          <div className="mb-3">
+          <div className="mb-3 col-md-6">
             <label htmlFor="address" className="form-label">
               Location
             </label>
-            <textarea
+            <input
               id="address"
-              className="form-control"
-              {...register("address", { required: "Address is required" })}
+              className={`form-control ${errors.address ? "is-invalid" : ""}`}
+              {...register("address", {
+                required: "Please provide an address",
+              })}
             />
             {errors.address && (
               <div className="invalid-feedback">{errors.address.message}</div>
+            )}
+          </div>
+
+          <div className="mb-3">
+            <label htmlFor="address" className="form-label">
+              Message
+            </label>
+            <textarea
+              id="message"
+              className={`form-control ${errors.message ? "is-invalid" : ""}`}
+              {...register("message", {
+                required: "If any message",
+              })}
+            />
+            {errors.address && (
+              <div className="invalid-feedback">{errors.message.message}</div>
             )}
           </div>
           <div className={styles.formBtn}>
