@@ -6,13 +6,12 @@ import Image from "next/image";
 import arrow from "../../assets/images/back-arrow-svgrepo-com.svg";
 
 export default function ContactForm() {
-  const form = useForm();
   const {
     register,
     handleSubmit,
     formState: { errors, isValid },
     reset,
-  } = form;
+  } = useForm();
   const [showMessage, setShowMessage] = useState(false);
 
   const onSubmit = (data) => {
@@ -69,7 +68,10 @@ export default function ContactForm() {
                   ? "is-valid"
                   : ""
               }`}
-              {...register("contact", { required: "Phone Number is required" })}
+              {...register("contact", {
+                required: "Phone Number is required",
+                pattern: { value: /^\d{10}$/, message: "Invalid phone number" },
+              })}
             />
             {errors.contact && (
               <div className="invalid-feedback">{errors.contact.message}</div>
