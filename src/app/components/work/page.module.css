@@ -2,7 +2,7 @@
 
 .marquee{
   height: 100vh;
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
 }
 
 .marqueeBox {
@@ -106,7 +106,7 @@
 /* Projects */
 .marqueeProject{
   height: 100vh;
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
   background: #000;
 }
 

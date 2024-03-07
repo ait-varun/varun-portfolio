@@ -1,6 +1,6 @@
 .marquee {
   height: 100vh;
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
 }
 
 .marqueeBox {
