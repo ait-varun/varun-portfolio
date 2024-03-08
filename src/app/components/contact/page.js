@@ -29,7 +29,7 @@ export default function ContactForm() {
     <form onSubmit={handleSubmit(onSubmit)} className={styles.contactForm}>
       <div
         className={`${styles.getInTouch} d-flex align-items-center justify-content-between mb-4 py-3`}>
-        <h1 className="mb-0">CONTACT ME</h1>
+        <h1 className="mb-0">#CONTACT ME</h1>
         <Link href="/">
           {" "}
           <Image src={arrow} alt="back-button" width={40} />

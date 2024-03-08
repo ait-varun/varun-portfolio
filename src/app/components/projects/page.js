@@ -13,7 +13,7 @@ export default function Projects() {
         </h2>
       </div>
       <div className={styles.projectHeader}>
-        <h1>PROJECTS</h1>
+        <h1>#PROJECTS</h1>
       </div>
       <div className={styles.projectBefore}>
         {user.projects.map((project, index) => (

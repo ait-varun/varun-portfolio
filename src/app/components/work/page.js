@@ -13,7 +13,7 @@ export default function Work() {
         </h2>
       </div>
       <div className={styles.studyHeader}>
-        <h1>WORK</h1>
+        <h1>#WORK</h1>
       </div>
       {user.experience.map((work, index) => (
         <div className={styles.studyBefore} key={index}>

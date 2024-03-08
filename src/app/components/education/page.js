@@ -13,7 +13,7 @@ export default function Education() {
         </h2>
       </div>
       <div className={styles.studyHeader}>
-        <h1>STUDY</h1>
+        <h1>#STUDY</h1>
       </div>
       {user.education.map((study, index) => (
         <div className={styles.studyBefore} key={index}>
