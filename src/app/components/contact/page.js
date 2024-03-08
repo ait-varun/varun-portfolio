@@ -63,7 +63,7 @@ export default function ContactForm() {
               Phone Number
             </label>
             <input
-              type="text"
+              type="tel"
               id="contact"
               className={`form-control ${
                 errors.contact
@@ -76,7 +76,7 @@ export default function ContactForm() {
                 required: "Phone Number is required",
                 pattern: {
                   value: /^\d{10}$/,
-                  message: "Invalid phone number",
+                  message: "Invalid phone number it must be of 10 digits",
                 },
               })}
             />
