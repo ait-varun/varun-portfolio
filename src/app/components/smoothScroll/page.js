@@ -8,7 +8,7 @@ export default function SmoothScroll({ children }) {
       options={{
         smooth: true,
         autoRaf: true,
-        duration: 1,
+        duration: 1.5,
       }}>
       {children}
     </ReactLenis>
