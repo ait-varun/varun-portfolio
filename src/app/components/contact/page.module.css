@@ -64,4 +64,8 @@ input:-webkit-autofill{
   .getInTouch h1 {
     font-size: 8vw !important;
   }
+
+  .getInTouch img{
+    width: 6vw;
+  }
 }
