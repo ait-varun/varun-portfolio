@@ -4,6 +4,7 @@ import styles from "./page.module.css";
 import Image from "next/image";
 import profile from "../../assets/images/profile-main.png";
 import user from "@/app/data/data";
+import Link from "next/link";
 export default function Hero({ scrollTo, goToSectionRef }) {
   return (
     <section className={styles.hero}>
@@ -13,9 +14,9 @@ export default function Hero({ scrollTo, goToSectionRef }) {
             <div>
               <span className={styles.logo}>Varun</span>
             </div>
-            <div>
-              <button>Get in touch</button>
-            </div>
+            <button>
+              <Link href="/get-in-touch">Get in touch</Link>
+            </button>
           </nav>
         </div>
       </header>

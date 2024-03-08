@@ -4,6 +4,7 @@ import instagram from "../../assets/images/instagram.png";
 import twitter from "../../assets/images/twitter.png";
 import linkdin from "../../assets/images/linkdin.png";
 import git from "../../assets/images/git.png";
+import Link from "next/link";
 export default function Footer() {
   return (
     <section className={styles.footer}>
@@ -57,7 +58,9 @@ export default function Footer() {
             <div className={styles.projectButton}>
               <h3>Ready to talk?</h3>
               <p>I&apos;ve got a good feeling about this</p>
-              <button>Start a project</button>
+              <Link href="/get-in-touch">
+                <button>Start a project</button>
+              </Link>
             </div>
           </div>
         </div>

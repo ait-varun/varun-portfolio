@@ -40,3 +40,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 command line: `npm install @studio-freight/react-lenis`
 check out: (https://lenis.studiofreight.com/)
+
+
+## Install React-hook-form
+
+command line: `npm install react-hook-form`
+check out: (https://www.npmjs.com/package/react-hook-form)
