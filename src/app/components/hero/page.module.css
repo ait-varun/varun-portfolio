@@ -75,7 +75,7 @@
 .heroContent button {
   color: #ffff;
   padding: 1vw 5vw;
-  border-radius: 2vw;
+  border-radius: 30px;
   background-color: transparent;
   border: 1px solid #ffff;
 }
