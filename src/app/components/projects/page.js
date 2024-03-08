@@ -9,7 +9,7 @@ export default function Projects() {
           <span>&nbsp;PROJECTS</span>
           <span>&nbsp;PROJECTS</span>
           <span>&nbsp;PROJECTS</span>
-          <span>&nbsp;EDUCATION</span>
+          <span>&nbsp;PROJECTS</span>
         </h2>
       </div>
       <div className={styles.projectHeader}>
