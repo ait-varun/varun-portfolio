@@ -28,8 +28,8 @@ export default function ContactForm() {
   return (
     <form onSubmit={handleSubmit(onSubmit)} className={styles.contactForm}>
       <div
-        className={`${styles.getInTouch} d-flex align-items-center justify-content-between mb-4`}>
-        <h1>CONTACT ME</h1>
+        className={`${styles.getInTouch} d-flex align-items-center justify-content-between mb-4 py-3`}>
+        <h1 className="mb-0">CONTACT ME</h1>
         <Link href="/">
           {" "}
           <Image src={arrow} alt="back-button" width={40} />
@@ -42,7 +42,7 @@ export default function ContactForm() {
       )}
       <div className="container mt-5">
         <div className="row">
-          <div className="mb-3 col-md-6 pe-5">
+          <div className="mb-3 col-md-6 pe-2 pe-md-5">
             <label htmlFor="name" className="form-label">
               Name
             </label>
@@ -58,7 +58,7 @@ export default function ContactForm() {
               <div className="invalid-feedback">{errors.name.message}</div>
             )}
           </div>
-          <div className="mb-3 col-md-6 ps-5">
+          <div className="mb-3 col-md-6 ps-2 ps-md-5">
             <label htmlFor="name" className="form-label">
               Phone Number
             </label>
@@ -84,7 +84,7 @@ export default function ContactForm() {
               <div className="invalid-feedback">{errors.contact.message}</div>
             )}
           </div>
-          <div className="mb-3 col-md-6 mt-4 pe-5">
+          <div className="mb-3 col-md-6 mt-4 pe-2 pe-md-5">
             <label htmlFor="contact" className="form-label">
               Email
             </label>
@@ -106,7 +106,7 @@ export default function ContactForm() {
               <div className="invalid-feedback">{errors.email.message}</div>
             )}
           </div>
-          <div className="mb-3 col-md-6 mt-4 ps-5">
+          <div className="mb-3 col-md-6 mt-4 ps-2 ps-md-5">
             <label htmlFor="address" className="form-label">
               Location
             </label>

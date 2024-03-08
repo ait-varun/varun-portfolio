@@ -6,8 +6,6 @@
   margin-bottom: 0px;
 }
 
-
-
 .contactForm input,
 .contactForm textarea {
   border: none;
@@ -22,16 +20,14 @@
   border-color: #000000;
 }
 
-.contactForm label{
+.contactForm label {
   font-weight: 600;
   text-transform: uppercase;
 }
 
-
 .contactForm .formBtn {
   text-align: center;
 }
-
 
 .contactForm .formBtn button {
   padding: 1vw 3vw;
@@ -44,7 +40,6 @@
   border-color: #28a745;
 }
 
-
 /* .contactForm
 input:-webkit-autofill{
     -webkit-text-fill-color: rgb(1, 1, 1) !important;
@@ -52,13 +47,21 @@ input:-webkit-autofill{
 
 } */
 
-
 .contactForm input:-webkit-autofill,
 .contactForm input:-webkit-autofill:hover,
 .contactForm input:-webkit-autofill:focus,
-.contactForm input:-webkit-autofill:active{
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #000000;
-    transition: background-color 5000s ease-in-out 0s;
-    box-shadow: 0 0 0 20px rgb(255, 255, 255) inset !important;
+.contactForm input:-webkit-autofill:active {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #000000;
+  transition: background-color 5000s ease-in-out 0s;
+  box-shadow: 0 0 0 20px rgb(255, 255, 255) inset !important;
+}
+
+/* mobile */
+
+/* Mobile */
+@media (max-width: 700px) {
+  .getInTouch h1 {
+    font-size: 8vw !important;
+  }
 }
