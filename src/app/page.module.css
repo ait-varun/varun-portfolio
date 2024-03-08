@@ -2,7 +2,12 @@
   overflow-x: hidden;
 }
 
+/* For making scroll on content give scroll-margin-top */
 
+
+/* .projects{
+  scroll-margin-top: 3rem;
+} */
 
 
 

@@ -29,7 +29,7 @@ export default function Home() {
         <div ref={section3}>
           <Work />
         </div>
-        <div ref={section4} id="projects">
+        <div ref={section4} id="projects" className={styles.projects}>
           <Projects />
         </div>
         <div ref={section5}>
