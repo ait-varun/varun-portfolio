@@ -29,7 +29,7 @@
 
 .hero {
   height: 100vh;
-  scroll-snap-align: center;
+  /* scroll-snap-align: center; */
 }
 
 .heroImage {
