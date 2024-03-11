@@ -10,6 +10,9 @@
   align-items: center;
   background-color: #fff;
 }
+.marqueeText  span::selection {
+  background-color: transparent;
+}
 
 .marqueeProjectBox h2 {
   white-space: nowrap;
