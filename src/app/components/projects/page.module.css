@@ -152,6 +152,7 @@
   }
   .projectLeftContent {
     display: flex;
+    justify-content: center;
     align-items: baseline;
   }
   .projectLeftContent h2 {
