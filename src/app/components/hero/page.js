@@ -12,50 +12,76 @@ export default function Hero({ scrollTo, goToSectionRef }) {
   // Register CSSPlugin
   gsap.registerPlugin(CSSPlugin);
 
+
   useLayoutEffect(() => {
     // Refactored animation configurations for better readability and standardization
-    const logoAnimation = {
-      opacity: 0,
-      x: -100,
-      scale: 0.5,
-    };
-    const buttonAnimation = {
-      opacity: 0,
-      x: 100,
-      scale: 1,
-    };
-    const imageAnimation = {
-      opacity: 0,
-      x: -100,
-      scale: 1,
-    };
-    const contentAnimation = {
-      opacity: 0,
-      x: 200,
-      scale: 1,
-    };
+    const logoAnimation = { opacity: 0, x: -100, scale: 0.5 };
+    const buttonAnimation = { opacity: 0, x: 100, scale: 1 };
+    const imageAnimation = { opacity: 0, x: -100, scale: 1 };
+    const contentAnimation = { opacity: 0, x: 200, scale: 1 };
+    const imageMobileAnimation = { opacity: 0, scale: 0 };
+    // Create a media query matcher
+    const mm = gsap.matchMedia();
 
-    // Refactored animation calls for better readability
-    gsap.fromTo(
-      ".logo",
-      { ...logoAnimation },
-      { opacity: 1, x: 0, scale: 1, duration: 2, ease: "back.out" }
-    );
-    gsap.fromTo(
-      ".logoBtn",
-      { ...buttonAnimation },
-      { opacity: 1, x: 0, scale: 1, duration: 2, ease: "back.out" }
-    );
-    gsap.fromTo(
-      ".heroImg",
-      { ...imageAnimation },
-      { opacity: 1, x: 0, scale: 1, duration: 2 }
-    );
-    gsap.fromTo(
-      ".heroContent",
-      { ...contentAnimation },
-      { opacity: 1, x: 0, scale: 1, duration: 2 }
-    );
+    // Add a media query for desktop screens
+    mm.add("(min-width: 800px)", () => {
+      // Desktop animations
+      gsap.fromTo(
+        ".logo",
+        { ...logoAnimation },
+        { opacity: 1, x: 0, scale: 1, duration: 2, ease: "back.out" }
+      );
+      gsap.fromTo(
+        ".logoBtn",
+        { ...buttonAnimation },
+        { opacity: 1, x: 0, scale: 1, duration: 2, ease: "back.out" }
+      );
+      gsap.fromTo(
+        ".heroImg",
+        { ...imageAnimation },
+        { opacity: 1, x: 0, scale: 1, duration: 2 }
+      );
+      gsap.fromTo(
+        ".heroContent",
+        { ...contentAnimation },
+        { opacity: 1, x: 0, scale: 1, duration: 2 }
+      );
+
+      // Optional cleanup function
+      return () => {
+        // Custom cleanup code here (runs when it STOPS matching)
+      };
+    });
+
+    // Add a media query for mobile screens
+    mm.add("(max-width: 799px)", () => {
+      // Mobile animations
+      gsap.fromTo(
+        ".logo",
+        { ...logoAnimation },
+        { opacity: 1, x: 0, scale: 0.8, duration: 1, ease: "back.out" }
+      );
+      gsap.fromTo(
+        ".logoBtn",
+        { ...buttonAnimation },
+        { opacity: 1, x: 0, scale: 0.8, duration: 1, ease: "back.out" }
+      );
+      gsap.fromTo(
+        ".heroImg",
+        { ...imageMobileAnimation },
+        { opacity: 1, scale: 0.8, duration: 1 }
+      );
+      gsap.fromTo(
+        ".heroContent",
+        { ...contentAnimation },
+        { opacity: 1, x: 0, scale: 0.8, duration: 1 }
+      );
+
+      // Optional cleanup function
+      return () => {
+        // Custom cleanup code here (runs when it STOPS matching)
+      };
+    });
   }, []);
   return (
     <section className={styles.hero}>
