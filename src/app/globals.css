@@ -34,6 +34,10 @@ body {
   background: rgb(255, 255, 255);
   font-family: 'Onest', sans-serif ,'Great Vibes', cursive, 'Moret', sans-serif !important;
 }
+
+::selection {
+  background-color: rgb(201, 201, 201);
+}
 h1{
   font-size: 4vw !important;
   font-weight: 600  !important;
