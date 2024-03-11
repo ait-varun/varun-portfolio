@@ -1,5 +1,5 @@
 .marquee {
-  height: 80vh;
+  height: 100vh;
   /* scroll-snap-align: center; */
 }
 
@@ -105,6 +105,10 @@
 
 /* Mobile */
 @media (max-width: 700px) {
+
+  .marquee {
+    height: 80vh;
+  }
   .marqueeBox {
     height: 100px;
   }
