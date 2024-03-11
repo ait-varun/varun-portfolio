@@ -67,6 +67,18 @@ const user = {
         "Embla Carousel",
       ],
     },
+    {
+      name: "Vendoir",
+      url: "https://www.vendoir.com/",
+      frameworks: "React",
+      libraries: [
+        "React Bootstrap",
+        "React Google Autocomplete",
+        "React Select",
+        "Mail Chimp",
+        "Es Lint",
+      ],
+    },
   ],
   details: {
     contact: "+91 7018319841",
