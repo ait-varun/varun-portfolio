@@ -89,11 +89,9 @@
 .projectBefore > div:not(:last-child) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 }
-
-.projectBefore:last-child {
-  border-bottom: none;
+.projectBefore > div:last-child {
+  padding-bottom: 3vw !important;
 }
-
 .projectRightContent span {
   color: #fff;
   border: 1px solid #fff;
@@ -180,5 +178,8 @@
     color: #fff;
     text-shadow: 0px 0px 2px #a00a76;
     -webkit-text-stroke: 0px;
+  }
+  .projectBefore > div:last-child {
+    padding-bottom: 5vw !important;
   }
 }
