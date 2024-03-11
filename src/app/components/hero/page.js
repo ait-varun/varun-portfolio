@@ -59,22 +59,22 @@ export default function Hero({ scrollTo, goToSectionRef }) {
       gsap.fromTo(
         ".logo",
         { ...logoAnimation },
-        { opacity: 1, x: 0, scale: 0.8, duration: 1, ease: "back.out" }
+        { opacity: 1, x: 0, scale: 1, duration: 1, ease: "back.out" }
       );
       gsap.fromTo(
         ".logoBtn",
         { ...buttonAnimation },
-        { opacity: 1, x: 0, scale: 0.8, duration: 1, ease: "back.out" }
+        { opacity: 1, x: 0, scale: 1, duration: 1, ease: "back.out" }
       );
       gsap.fromTo(
         ".heroImg",
         { ...imageMobileAnimation },
-        { opacity: 1, scale: 0.8, duration: 1 }
+        { opacity: 1, scale: 1, duration: 1 }
       );
       gsap.fromTo(
         ".heroContent",
         { ...contentAnimation },
-        { opacity: 1, x: 0, scale: 0.8, duration: 1 }
+        { opacity: 1, x: 0, scale: 1, duration: 1 }
       );
 
       // Optional cleanup function
