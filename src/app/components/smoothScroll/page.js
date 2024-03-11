@@ -12,7 +12,7 @@ export default function SmoothScroll({ children }) {
         gestureDirection: "vertical",
         smooth: true,
         smoothTouch: true,
-        touchMultiplier: 20,
+        touchMultiplier: 2,
       }}>
       {children}
     </ReactLenis>
