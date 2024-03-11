@@ -19,7 +19,7 @@ export default function Hero({ scrollTo, goToSectionRef }) {
     const buttonAnimation = { opacity: 0, x: 100, scale: 1 };
     const imageAnimation = { x: -100, scale: 1 };
     const contentAnimation = { opacity: 0, x: 200, scale: 1 };
-    const imageMobileAnimation = { opacity: 0, scale: 0 };
+    const imageMobileAnimation = { scale: 0 };
     // Create a media query matcher
     const mm = gsap.matchMedia();
 
