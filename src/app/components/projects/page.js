@@ -18,7 +18,7 @@ export default function Projects() {
       </div>
       <div className={styles.projectBefore}>
         {user.projects.map((project, index) => (
-          <div className="container py-3" key={index}>
+          <div className="container py-3 py-md-4" key={index}>
             <Link href={project.url} key={index} target="_blank">
               <div className="row">
                 <div className={styles.projectBox}>

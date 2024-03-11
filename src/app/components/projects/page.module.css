@@ -1,6 +1,6 @@
 /* Projects */
 .marqueeProject {
-  height: 100vh;
+  /* height: 100vh; */
   /* scroll-snap-align: center; */
   background: #000;
 }
@@ -84,8 +84,14 @@
   display: flex;
   align-items: baseline;
   justify-content: space-between;
+}
+
+.projectBefore > div:not(:last-child) {
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  padding-bottom: 1.5vw;
+}
+
+.projectBefore:last-child {
+  border-bottom: none;
 }
 
 .projectRightContent span {
