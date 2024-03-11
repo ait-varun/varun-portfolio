@@ -38,7 +38,7 @@ const user = {
   projects: [
     {
       name: "House Dekho",
-      url: "https://housedekho.netlify.app/",
+      url: "https://housedekho.in/",
       frameworks: "Nuxt",
       libraries: [
         "TypeScript",
