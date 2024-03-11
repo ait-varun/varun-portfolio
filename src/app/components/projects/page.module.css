@@ -10,7 +10,7 @@
   align-items: center;
   background-color: #fff;
 }
-.marqueeText  span::selection {
+.marqueeText span::selection {
   background-color: transparent;
 }
 
@@ -48,6 +48,10 @@
   background: rgba(0, 0, 0, 1);
 }
 
+.projectBefore a {
+  text-decoration: none;
+}
+
 .projectLeftContent h2 {
   font-family: "Moret", sans-serif;
   color: rgba(255, 255, 255, 1);
@@ -65,7 +69,7 @@
   margin-left: 70px;
 }
 
-.projectLeftContent h6::before{
+.projectLeftContent h6::before {
   position: absolute;
   content: "";
   width: 4rem;
@@ -75,7 +79,6 @@
   transform: translateY(-50%);
   left: -70px;
 }
-
 
 .projectBox {
   display: flex;
@@ -152,7 +155,7 @@
     font-size: 3.2vw !important;
     margin-left: 3.5rem;
   }
-  .projectLeftContent h6::before{
+  .projectLeftContent h6::before {
     width: 2.5rem !important;
     left: -3rem;
   }

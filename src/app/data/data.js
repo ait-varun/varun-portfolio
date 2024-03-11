@@ -51,7 +51,7 @@ const user = {
     },
     {
       name: "Destiny Limousines",
-      url: "https://destiny-limousines.netlify.app/",
+      url: "https://www.destinylimousine.ca/",
       frameworks: "Angular",
       libraries: ["Boostrap", "TypeScript", "Ngrx", "Service-workers"],
     },
