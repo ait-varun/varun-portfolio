@@ -17,7 +17,7 @@ export default function Hero({ scrollTo, goToSectionRef }) {
     // Refactored animation configurations for better readability and standardization
     const logoAnimation = { opacity: 0, x: -100, scale: 0.5 };
     const buttonAnimation = { opacity: 0, x: 100, scale: 1 };
-    const imageAnimation = { opacity: 0, x: -100, scale: 1 };
+    const imageAnimation = { x: -100, scale: 1 };
     const contentAnimation = { opacity: 0, x: 200, scale: 1 };
     const imageMobileAnimation = { opacity: 0, scale: 0 };
     // Create a media query matcher
