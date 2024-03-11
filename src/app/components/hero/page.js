@@ -26,7 +26,7 @@ export default function Hero({ scrollTo, goToSectionRef }) {
       scale: 1,
     };
     const imageAnimation = {
-      x: -100,
+      x: -200,
       scale: 1,
     };
     const contentAnimation = {
@@ -49,12 +49,12 @@ export default function Hero({ scrollTo, goToSectionRef }) {
     gsap.fromTo(
       ".heroImg",
       { ...imageAnimation },
-      { opacity: 1, x: 0, scale: 1, duration: 2 }
+      { opacity: 1, x: 0, scale: 1, duration: 2, ease: "back.out" }
     );
     gsap.fromTo(
       ".heroContent",
       { ...contentAnimation },
-      { opacity: 1, x: 0, scale: 1, duration: 2 }
+      { opacity: 1, x: 0, scale: 1, duration: 2, ease: "back.out" }
     );
   }, []);
   return (
