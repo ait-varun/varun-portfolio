@@ -23,7 +23,7 @@ const user = {
   ],
   experience: [
     {
-      year: "JAN 2022 - PRESENT",
+      year: "JAN 2023 - PRESENT",
       company: "Analaytics It. Services",
       location: "Mohali",
       role: "Front End Developer",
